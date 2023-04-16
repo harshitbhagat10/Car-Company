@@ -114,6 +114,11 @@ html{
     /* margin-bottom:45px; */
     padding-bottom: 45px;
 }
+#services .box .btn{
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+}
 #services .box{
     border: 2px solid rgb(136, 136, 136);
     padding: 15px;
@@ -165,11 +170,15 @@ footer{
 
 /* Utility Classes */
 .h-primary{
-    font-size: 2.2rem;
+    font-size: 2.8rem;
     padding: 10px;
 }
 .h-secondary{
     font-size: 1.2rem;
+    padding: 10px;
+}
+.h-sub{
+    font-size:2.2rem;
     padding: 10px;
 }
 .center{
@@ -192,4 +201,11 @@ footer{
     color: black;
     font-weight: 500;
 }
-
+#services a{
+    text-decoration: none;
+    color: white;
+}
+.btn a:hover{
+    /* text-decoration: none; */
+    color: black;
+}
